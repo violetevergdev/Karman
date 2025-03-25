@@ -1,0 +1,39 @@
+{
+   "Наименование": "ЕВ СПН - Дата Решения",
+
+  "Выборки": {
+    "База данных": [
+      "PF",
+      "VPL"
+    ],
+    "Таблица": [
+      "PF~RASNC",
+      "VPL~PO",
+      "VPL~POPAY"
+    ],
+    "Поля": [
+      "RASNC~DRESH",
+      "RASNC~NRESH",
+      "PO~NPERS",
+      "PO~RA",
+      "POPAY~NP",
+      "POPAY~PW",
+      "POPAY~VIDVPL"
+    ]
+  },
+
+  "Уточнения": {
+    "npers": {
+      "select": "form1:table1:2:menu1",
+      "option": 11,
+      "set": "form1:table1:2:text7",
+      "set_keys": "000-000-001 00"
+    },
+    "vidvpl": {
+      "select": "form1:table1:6:menu1",
+      "option": 5,
+      "set": "form1:table1:6:text7",
+      "set_keys": "9"
+    }
+  }
+}
